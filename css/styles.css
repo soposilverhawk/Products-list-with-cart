@@ -4,7 +4,7 @@
     --dark-mode-lighter-shade: #243450;
 }
 
-@font-face {
+/* @font-face {
     font-family: "Red Hat Text";
     src: url(./assets/fonts/RedHatText-VariableFont_wght.ttf) format("truetype");
     font-weight: 400;
@@ -21,7 +21,7 @@
     src: url(./assets/fonts/RedHatText-VariableFont_wght.ttf) format("truetype");
     font-weight: 700;
     font-style: "normal";
-}
+} */
 
 body {
     font-size: 16px;
@@ -44,5 +44,23 @@ section {
     width: 100%;
     height: auto;
     display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: clamp(1rem, 8vw, 3rem);
+}
+#desserts-gallery-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4%;
+}
+.gallery-item-container {
+    width: 30%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
 }
