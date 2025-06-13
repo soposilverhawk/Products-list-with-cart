@@ -1,0 +1,48 @@
+:root {
+    --btn-active: hsl(14, 86%, 42%);
+    --dark-mode: #1b263b;
+    --dark-mode-lighter-shade: #243450;
+}
+
+@font-face {
+    font-family: "Red Hat Text";
+    src: url(./assets/fonts/RedHatText-VariableFont_wght.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Red Hat Text";
+    src: url(./assets/fonts/RedHatText-VariableFont_wght.ttf) format("truetype");
+    font-weight: 600;
+    font-style: "normal"
+}
+@font-face {
+    font-family: "Red Hat Text";
+    src: url(./assets/fonts/RedHatText-VariableFont_wght.ttf) format("truetype");
+    font-weight: 700;
+    font-style: "normal";
+}
+
+body {
+    font-size: 16px;
+    font-family: "Red Hat Text", sans-serif;
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    background-color: hsl(20, 50%, 98%);
+    margin: 0 auto;
+    position: relative;
+    transition: background-color 0.2s ease-in;
+}
+main {
+    width: 80%;
+    /* margin-top: 10rem; */
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
