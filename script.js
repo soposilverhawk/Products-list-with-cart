@@ -14,7 +14,7 @@ fetch("data.json")
   })
   .then((data) => {
     productsList = data;
-    renderItems(productsList)
+    renderItems(productsList);
   });
 
 function createAddToCartBtn() {
