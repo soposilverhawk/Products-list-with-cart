@@ -108,3 +108,15 @@ h1 {
     display: flex;
     flex-direction: column;
 }
+.cart-background {
+    height: auto;
+}
+h2 {
+    color: var(--btn-active);
+    font-size: 1.5rem;
+}
+.cart-items-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
